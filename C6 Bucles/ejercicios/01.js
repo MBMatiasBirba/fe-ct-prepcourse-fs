@@ -7,11 +7,13 @@ function esIgualYNegativo(a, b) {
 
 if (a==b && a<0) 
 
-  return true 
-  else return false
+  return true
+  else  false
 
 
 }
 
 module.exports = esIgualYNegativo;
-console.log(esIgualYNegativo(5,-5));
+console.log(esIgualYNegativo(-5,-5));
+console.log ("hola mundo");
+
